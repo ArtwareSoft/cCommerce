@@ -1,0 +1,131 @@
+#15-1
+
+use github and tgp/json files for metadata management!!!
+builders can run in a local repository to see preview
+
+##builder types
+builders
+  inteligent - use github
+  build metadata, benchmark, discussion
+  add products preferable with crawler from other eCommerce or make sites
+  graphics designers - icons for features
+
+users
+  fill preferences (as category sort) and choices (as normal usages)
+  fill issues (form based)
+  run benchmarks and fill results
+  run crawlers and gain $cCoin by downloading p2p software
+
+##external references
+$ref: url[]
+any data and metadata needs external references (can be to wikipedia, web page url or screenshot url).
+E.g. a feature defintion will ref to an eCommerce sites using the name and picklist values.
+
+##discussion page
+$discussion: url[]
+github text file discussion about anything. e.g. discussion/iphoneX-weight.
+any json inner object can have a reference to discussion page
+
+##decision process
+commit process in github with reviews if needed.
+domain manager(s) decide about content and inclusion/exclusion of git commiters
+each domain is a github project
+
+##builder approval
+domain manager approval is needed for metadata change. use git process with pull request and commit.
+
+##directory structure
+domain (laptop)
+	metadata
+		features.tgp (include feature groups)
+		benchmarks.tgp
+		issues.tgp
+	product
+		prod1.tgp
+		prod2.tgp
+	make
+		make1.tgp
+	vendor
+tools
+	crawlers
+
+##feature valueType
+	picklist: options, multi?, unit
+	range: from, to, unit
+	shortText: maxLength: 80
+	longText: maxLength: 500
+
+##crowd user management
+	use google app
+
+##product issues
+
+## generate html/js files from content using cloud ETL (e.g., SPARC)
+generated (google storage)
+	html
+		prod1.html
+	index
+		laptop.js
+
+#16-1
+
+##fake products section
+##product variation section
+
+##product key
+	why is it good?
+		will allow vendors to simply join
+		connection to vendor sites
+	why is it bad?
+		we play to the hands of makers & suppliers. Too many fake products aimed to confuse us...
+		no good open database to start with
+		best option - amazon ASIN. can we use it? will they dominate us?
+
+	other options - ISBN, EAN, UPC
+	anoter option - make-model-spec
+
+##updated crowd content
+  - wikipedia focus on old/checked content
+  - news only on the latest - rearly formated
+
+##penetration strategy - one domain or full
+	one domain - laptops/mobile devices/computer games
+		better content quality
+		can assure quality to visitors
+		learn
+		amazon started with books
+	multi domain
+		better for investor confidence
+	several main domains
+		laptops/mobile devices/computer games 
+		other domains with approval
+
+#17-1
+
+##builders motivation when there is no site activity?
+	ideology (wikipedia)
+	social
+		share my contribution (facebook)
+		integrate with friend advice
+	reputation (stackoverflow)
+	fun
+		good tools
+
+	work for $$
+	work for $cCoin beta
+
+	school tasks - nachshon
+	good tools
+	requests
+		fun collaboration between 'content' centric and technical using
+			can you parse this document for me.
+			can you define this features for me.
+
+##building the mobile phone domain
+	use ebay API to get for 95,642 items specs to build the objective DB
+	GetMultipleItems to get UPC and ASIN
+
+
+#19-1
+parsing ebay & gsmarena
+d3 graphs

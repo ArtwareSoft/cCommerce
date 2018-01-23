@@ -1,0 +1,28 @@
+<script>
+	module = {};
+	unique = (ar,f) => {
+    f = f || (x=>x);
+    var keys = {}, res = [];
+    ar.forEach(e=>{
+      if (!keys[f(e)]) {
+        keys[f(e)] = true;
+        res.push(e)
+      }
+    })
+    return res;
+  }
+</script>
+<script src="../download/arena.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../node_modules/nvd3/build/nv.d3.css">
+
+<script>
+  var yearAsNum = x => x.Announced && Number((x.Announced.match(/20[0-9][0-9]/)||[0])[0]);
+  var sizeAsNum = x => x.Size && Number((x.Size.match(/([0-9.]*)\s*in/)||[0])[1]);
+  var perfIIAsNum = x => x.Performance && Number((x.Performance.match(/Basemark OS II 2.0:\s*([0-9.]*)/)||[0])[1]);
+  var perfXAsNum = x => x.Performance && Number((x.Performance.match(/Basemark X:\s*([0-9.]*)/)||[0])[1]);
+  var priceAsNum = x => x.Price && Number((x.Price.match(/[0-9.]*/)||[0])[1]);
+
+  var relevant = module.exports.products.filter(x=>x && sizeAsNum(x) > 4  && sizeAsNum(x) < 7 && yearAsNum(x) > 2015);
+
+</script>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scatterplot d3v4</title>
+<style type="text/css">
+	body{
+		margin: 0;
+		font-family: arial, sans;
+	}
+
+	.label { font-size: 15px }
+	.legend text,
+	.axis text  {	font-size: 13px; fill: #333 }
+	.axis path,
+	.axis line {	fill: none;
+	stroke-width: 1px;
+	stroke: #777 }
+	.circle { fill-opacity: 0.65 }
+	.bubble { opacity: 1;	transition: opacity 0.3s }
+	.bubble:hover text {	opacity: 1 }
+	.bubble:hover circle {	fill-opacity: 1 }
+	.legend rect {	fill-opacity: 0.75 }
+	.legeng:hover rect {	fill-opacity:1 }
+</style>
+
+<script type="text/javascript">
+	module = {};
+</script>
+
+<script type="text/javascript" src="../lib/d3.v4.js"></script>
+<script type="text/javascript" src="../lib/jb-core.js"></script>
+<script src="../download/arena.js"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+
+jb.component('cc.property', {
+	type: 'cc.property',
+	params: [
+		{ id: 'title', as: 'string'},
+		{ id: 'valFunc', as: 'single', description: 'object to value'},
+	],
+	impl : ctx => ctx.params
+})
+
+jb.component('cc.size', {
+	type: 'cc.property',
+	impl :{$: 'cc.property',
+		title: 'size',
+		valFunc: ctx => x => Number((x.Size && x.Size.match(/([0-9.]*)\s*in/)||[0,0])[1]),
+	}
+})
+
+jb.component('cc.performanceII', {
+	type: 'cc.property',
+	impl :{$: 'cc.property',
+		title: 'performance',
+		valFunc: ctx => x => Number((x.Performance && x.Performance.match(/Basemark OS II 2.0:\s*([0-9.]*)/)||[0,0])[1]),
+	}
+})
+
+jb.component('cc.hits', {
+	type: 'cc.property',
+	impl :{$: 'cc.property',
+		title: 'hits',
+		valFunc: ctx => x => x.hits,
+	}
+})
+
+jb.component('cc.make', {
+	type: 'cc.property',
+	impl :{$: 'cc.property',
+		title: 'make',
+		valFunc: ctx => x => (x.title || '').split(' ')[0],
+	}
+})
+
+	var yearAsNum = x => x.Announced && Number((x.Announced.match(/20[0-9][0-9]/)||[0])[0]);
+	var sizeAsNum = x => x.Size && Number((x.Size.match(/([0-9.]*)\s*in/)||[0])[1]);
+	var perfIIAsNum = x => x.Performance && Number((x.Performance.match(/Basemark OS II 2.0:\s*([0-9.]*)/)||[0])[1]);
+	var perfXAsNum = x => x.Performance && Number((x.Performance.match(/Basemark X:\s*([0-9.]*)/)||[0])[1]);
+	var priceAsNum = x => x.Price && Number((x.Price.match(/[0-9.]*/)||[0])[1]);
+	var devices = module.exports.products.filter(x=>x && sizeAsNum(x) > 4  && sizeAsNum(x) < 7 && yearAsNum(x) > 2015);
+
+
+jb.component('cc.scatter-x-y-r', {
+	type: 'd3.chart',
+	params: [
+		{id: 'frame', type: 'd3.frame' },
+		{id: 'items', as: 'array' },
+		{id: 'x', type: 'd3.pivot', dynamic: true },
+		{id: 'y', type: 'd3.pivot', dynamic: true },
+		{id: 'radius', type: 'd3.pivot', dynamic: true },
+		{id: 'color', type: 'd3.pivot', dynamic: true },
+		{id: 'title', as: 'single' },
+	],
+	impl : (ctx,frame,items,x,y,radius,color,titleFunc) => {
+		var ctx2 = ctx.setVars({items: items, frame: frame});
+		var xPivot = x(ctx2.setVars({xAxis: true}));
+		var yPivot = y(ctx2.setVars({yAxis: true}));
+		var rPivot = radius(ctx2);
+		var colorPivot = color(ctx2);
+
+		var xAxis = d3.axisBottom().scale(xPivot.scale);
+		var yAxis = d3.axisLeft().scale(yPivot.scale);
+
+		var svg = frame.svg();
+		svg.append('g')
+			.attr('transform', 'translate(0,' + frame.height + ')')
+			.attr('class', 'x axis')
+			.call(xAxis);
+
+		svg.append('g')
+			.attr('transform', 'translate(0,0)')
+			.attr('class', 'y axis')
+			.call(yAxis);
+
+		var bubble = svg.selectAll('.bubble')
+			.data(items)
+			.enter().append('circle')
+			.attr('class', 'bubble')
+			.attr('cx', x => xPivot.scale(xPivot.prop.valFunc(x)))
+			.attr('cy', x => yPivot.scale(yPivot.prop.valFunc(x)))
+			.attr('r', x => rPivot.scale(rPivot.prop.valFunc(x)))
+			.style('fill', x => colorPivot.scale(colorPivot.prop.valFunc(x)));
+	
+		bubble.append('title')
+			.attr('x', x => rPivot.scale(rPivot.prop.valFunc(x)))
+			.text( x=> titleFunc(x) );
+
+
+		svg.append('text').attr('x', 10).attr('y', 10).attr('class', 'label').text(yPivot.prop.title);
+		svg.append('text').attr('x', frame.width).attr('y', frame.height - 10).attr('text-anchor', 'end')
+			.attr('class', 'label').text(xPivot.prop.title);
+
+	}
+})
+
+jb.component('d3.linear-scale', {
+	type: 'd3.scale',
+	impl: ctx => d3.scaleLinear()
+})
+
+jb.component('d3.sqrt-scale', {
+	type: 'd3.scale',
+	impl: ctx => d3.scaleSqrt()
+})
+
+jb.component('d3.ordinal-scale', {
+	type: 'd3.scale',
+	params: [
+		{ id: 'list', as: 'array' }
+	],
+	impl: (ctx,list) => d3.scaleOrdinal(list)
+})
+
+jb.component('d3.colors', {
+	type: 'd3.scale',
+	impl: {$: 'd3.ordinal-scale', list: ctx => d3.schemeCategory20 }
+})
+
+jb.component('d3.pivot', {
+	type: 'd3.pivot',
+	params: [
+		{ id: 'prop', type: 'cc.property' },
+		{ id: 'scale', type: 'd3.scale', dynamic: true, defaultValue: {$: 'd3.linear-scale' } },
+		{ id: 'range', type: 'd3.range', dynamic: true, 
+			defaultValue: {$: 'd3.range-by-frame'} },
+		{ id: 'domain', type: 'd3.domain', dynamic: true, 
+			defaultValue: {$: 'd3.domain-by-values'} },
+	],
+	impl: (ctx,prop,scaleFunc,range,domain) => {
+		var scale = scaleFunc() ;
+		range(ctx.setVars({scale: scale}));
+		domain(ctx.setVars({scale: scale, valFunc: prop.valFunc}));
+		return { scale: scale, prop: prop };
+	}
+})
+
+jb.component('d3.range-by-frame', {
+	type: 'd3.range',
+	impl: ctx => {
+		if (ctx.vars.yAxis)
+		  return ctx.vars.scale.range([ctx.vars.frame.height,0])
+		if (ctx.vars.xAxis)
+		  return ctx.vars.scale.range([0, ctx.vars.frame.width])
+	}
+})
+
+jb.component('d3.from-to', {
+	type: 'd3.range',
+	params: [
+		{ id: 'from', as: 'number'},
+		{ id: 'to', as: 'number'},
+	],
+	impl: (ctx,from,to) =>
+		ctx.vars.scale.range([from,to])
+})
+
+jb.component('d3.domain-by-values', {
+	type: 'd3.domain',
+	impl: ctx => {
+		var domain = ctx.vars.scale.domain(d3.extent(ctx.vars.items, ctx.vars.valFunc));
+		domain.nice && domain.nice();
+		return domain;
+	}
+})
+
+jb.component('d3.frame', {
+	type: 'd3.frame',
+	params: [
+		{id: 'selector', as: 'string', defaultValue: 'body' },
+		{id: 'width', as: 'number', defaultValue: 900 },
+		{id: 'height', as: 'number', defaultValue: 600 },
+		{id: 'top', as: 'number' },
+		{id: 'right', as: 'number' },
+		{id: 'bottom', as: 'number' },
+		{id: 'left', as: 'number' },
+	],
+	impl : (ctx,selector,width,height,top,right,bottom,left) => ({ 
+			width: width - left - right,
+			height: height - top - bottom,
+			svg: _ => d3.select(selector)
+				.append('svg')
+				.attr('width', width)
+				.attr('height', height).append('g')
+				.attr('transform', 'translate(' + left + ',' + top + ')')
+		})
+})
+
+
+var chart = new jb.jbCtx().run({
+		$: 'cc.scatter-x-y-r',
+		frame: {$: 'd3.frame', width: 960, height: 500, 
+				top: 30, right: 50, bottom: 40, left: 60 },
+		items: ctx => devices,
+		x :{$: 'd3.pivot', prop: {$: 'cc.size'} },
+		y :{$: 'd3.pivot', prop: {$: 'cc.performanceII'} },
+		radius: {$: 'd3.pivot', 
+			prop :{$: 'cc.hits'},
+			scale: {$: 'd3.sqrt-scale'}, 
+			range: {$:'d3.from-to', from: 2, to: 20}, 
+		},
+		color: {$: 'd3.pivot',
+			prop :{$: 'cc.make'},
+			scale :{$: 'd3.colors' }
+		},
+		title: ctx => x => `${x.title} (${x.Announced})`
+})
+
+function x() {
+	var xFunc = x => sizeAsNum(x) || 0;
+	var yFunc = x => perfIIAsNum(x) || 0;
+	var rFunc = x => x.hits || 0;
+	var colorFunc = x => (x.title || '').split(' ')[0];
+
+	var margin = {top: 30, right: 50, bottom: 40, left:40};
+	var width = 960 - margin.left - margin.right;
+	var height = 500 - margin.top - margin.bottom;
+	var svg = d3.select('body')
+		.append('svg')
+		.attr('width', width + margin.left + margin.right)
+		.attr('height', height + margin.top + margin.bottom).append('g')
+		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+	var xScale = d3.scaleLinear().range([0, width]);
+	var yScale = d3.scaleLinear().range([height, 0]);
+	var radius = d3.scaleSqrt().range([2,20]);
+	var xAxis = d3.axisBottom().scale(xScale);
+	var yAxis = d3.axisLeft().scale(yScale);
+
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
+	xScale.domain(d3.extent(devices, xFunc)).nice();
+	yScale.domain(d3.extent(devices, yFunc)).nice();
+	radius.domain(d3.extent(devices, rFunc)).nice();
+
+	svg.append('g')
+		.attr('transform', 'translate(0,' + height + ')')
+		.attr('class', 'x axis')
+		.call(xAxis);
+
+	svg.append('g')
+		.attr('transform', 'translate(0,0)')
+		.attr('class', 'y axis')
+		.call(yAxis);
+
+	var bubble = svg.selectAll('.bubble')
+		.data(devices)
+		.enter().append('circle')
+		.attr('class', 'bubble')
+		.attr('cx', x => xScale(xFunc(x)) )
+		.attr('cy', x => yScale(yFunc(x)) )
+		.attr('r', x => radius(rFunc(x)))
+		.style('fill', x => color(colorFunc(x)));
+
+	bubble.append('title')
+		.attr('x', x => radius(rFunc(x)))
+		.text( x=> x.title);
+
+	// adding label. For x-axis, it's at (10, 10), and for y-axis at (width, height-10).
+	svg.append('text')
+		.attr('x', 10)
+		.attr('y', 10)
+		.attr('class', 'label')
+		.text('Speed');
+
+
+	svg.append('text')
+		.attr('x', width)
+		.attr('y', height - 10)
+		.attr('text-anchor', 'end')
+		.attr('class', 'label')
+		.text('Size');
+
+		// // I feel I understand legends much better now.
+		// // define a group element for each color i, and translate it to (0, i * 20). 
+		// var legend = svg.selectAll('legend')
+		// 	.data(color.domain())
+		// 	.enter().append('g')
+		// 	.attr('class', 'legend')
+		// 	.attr('transform', function(d,i){ return 'translate(0,' + i * 20 + ')'; });
+
+		// // give x value equal to the legend elements. 
+		// // no need to define a function for fill, this is automatically fill by color.
+		// legend.append('rect')
+		// 	.attr('x', width)
+		// 	.attr('width', 18)
+		// 	.attr('height', 18)
+		// 	.style('fill', color);
+
+		// // add text to the legend elements.
+		// // rects are defined at x value equal to width, we define text at width - 6, this will print name of the legends before the rects.
+		// legend.append('text')
+		// 	.attr('x', width - 6)
+		// 	.attr('y', 9)
+		// 	.attr('dy', '.35em')
+		// 	.style('text-anchor', 'end')
+		// 	.text(function(d){ return d; });
+
+
+		// // d3 has a filter fnction similar to filter function in JS. Here it is used to filter d3 components.
+		// legend.on('click', function(type){
+		// 	d3.selectAll('.bubble')
+		// 		.style('opacity', 0.15)
+		// 		.filter(function(d){
+		// 			return d.Species == type;
+		// 		})
+		// 		.style('opacity', 1);
+		// })
+
+
+//	})
+}
+
+</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,3461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cCommerce"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"onc",
+				"oncontextmenu"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"log",
+				"logException"
+			],
+			[
+				"mem",
+				"memory"
+			],
+			[
+				"row",
+				"rowElem"
+			],
+			[
+				"pr",
+				"profElem"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"cir",
+				"circuitCtx"
+			],
+			[
+				"scr",
+				"screens"
+			],
+			[
+				"feat",
+				"features"
+			],
+			[
+				"con",
+				"concat"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"a",
+				"areavar"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"host",
+				"hostData"
+			],
+			[
+				"read",
+				"readFileSync"
+			],
+			[
+				"scer",
+				"screen"
+			],
+			[
+				"as",
+				"assign"
+			],
+			[
+				"co",
+				"comps"
+			],
+			[
+				"jav",
+				"javaCode"
+			],
+			[
+				"M",
+				"MemoryInfo"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"flo",
+				"flowControl"
+			],
+			[
+				"pa",
+				"paramsSt"
+			],
+			[
+				"open",
+				"openWindow"
+			],
+			[
+				"B",
+				"Back01"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"on",
+				"onSuccess"
+			],
+			[
+				"se",
+				"settingsStr"
+			],
+			[
+				"p",
+				"profile"
+			],
+			[
+				"fl",
+				"flowData"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"is",
+				"isArray"
+			],
+			[
+				"el",
+				"elseActions"
+			],
+			[
+				"Con",
+				"conditions"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"ma",
+				"majorProp"
+			],
+			[
+				"sort",
+				"SortFunc"
+			],
+			[
+				"com",
+				"compareMinor"
+			],
+			[
+				"so",
+				"sortFunc"
+			],
+			[
+				"ref",
+				"refresh"
+			],
+			[
+				"le",
+				"lexical"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"def",
+				"defaultValue"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"field",
+				"fieldId"
+			],
+			[
+				"fi",
+				"fieldId"
+			],
+			[
+				"ci",
+				"circuitCtx"
+			],
+			[
+				"tr",
+				"transactionInput"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"no",
+				"notCovered"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"l",
+				"label"
+			],
+			[
+				"PE",
+				"PE29"
+			],
+			[
+				"ini",
+				"initialValue"
+			],
+			[
+				"ho",
+				"hostDataToArray"
+			],
+			[
+				"impl",
+				"implemented_features"
+			],
+			[
+				"Obj",
+				"Object"
+			],
+			[
+				"chu",
+				"chunks"
+			],
+			[
+				"fea",
+				"features"
+			],
+			[
+				"featu",
+				"feature"
+			],
+			[
+				"calc",
+				"calc_flows_order"
+			],
+			[
+				"cal",
+				"calc_flows_order"
+			],
+			[
+				"sc",
+				"screens"
+			],
+			[
+				"Co",
+				"Condition"
+			],
+			[
+				"DE",
+				"DELETED"
+			],
+			[
+				"tas",
+				"taskId"
+			],
+			[
+				"To",
+				"ToFileDB"
+			],
+			[
+				"run",
+				"runSQL"
+			],
+			[
+				"sql",
+				"sqlArray"
+			],
+			[
+				"ig",
+				"ignoreFirstLine"
+			],
+			[
+				"more",
+				"moreFields"
+			],
+			[
+				"DAT",
+				"DATA13"
+			],
+			[
+				"LAS",
+				"LAST_UPDATE_USER"
+			],
+			[
+				"tab",
+				"tableId"
+			],
+			[
+				"D",
+				"Deferred"
+			],
+			[
+				"error",
+				"errorLog"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"other",
+				"otherFields"
+			],
+			[
+				"up",
+				"updateFieldsByTable"
+			],
+			[
+				"succ",
+				"successNotification"
+			],
+			[
+				"test",
+				"testFolder"
+			],
+			[
+				"X",
+				"XmlToText"
+			],
+			[
+				"im",
+				"importFile"
+			],
+			[
+				"import",
+				"importFile"
+			],
+			[
+				"task",
+				"taskFolder"
+			],
+			[
+				"fo",
+				"folderToCreate"
+			],
+			[
+				"exi",
+				"existing_row"
+			],
+			[
+				"extr",
+				"extra_keys"
+			],
+			[
+				"table",
+				"tableId"
+			],
+			[
+				"rows",
+				"rows_index"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"load",
+				"loadFromPositionalFile"
+			],
+			[
+				"new",
+				"newBanks"
+			],
+			[
+				"etl",
+				"etlUtils"
+			],
+			[
+				"var",
+				"vars"
+			],
+			[
+				"E",
+				"Enrich"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"imo",
+				"importFileName"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"ex",
+				"extract"
+			],
+			[
+				"fileFo",
+				"fileFormat"
+			],
+			[
+				"insert",
+				"insert-or-update"
+			],
+			[
+				"U",
+				"UPDATE_TIME"
+			],
+			[
+				"update",
+				"update830"
+			],
+			[
+				"tableI",
+				"tableInfo"
+			],
+			[
+				"node",
+				"nodeValue"
+			],
+			[
+				"period",
+				"period_field"
+			],
+			[
+				"Not",
+				"NotEmpty"
+			],
+			[
+				"key",
+				"keyVals"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"qu",
+				"queries"
+			],
+			[
+				"set",
+				"setTitle"
+			],
+			[
+				"aa_to",
+				"aa_tobool"
+			],
+			[
+				"filter",
+				"filterDeleted"
+			],
+			[
+				"Ses",
+				"sessionStorage"
+			],
+			[
+				"Table",
+				"TableMetadata"
+			],
+			[
+				"whe",
+				"where_part"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/jb-react/src/ui/styles/mdl-styles.js",
+			"settings":
+			{
+				"buffer_size": 2575,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/loader/jb-loader.js",
+			"settings":
+			{
+				"buffer_size": 5746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/node_modules/material-design-lite/material.js",
+			"settings":
+			{
+				"buffer_size": 145857,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/jb-react/node_modules/material-design-lite/package.json",
+			"settings":
+			{
+				"buffer_size": 4174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/react-ctrl.js",
+			"settings":
+			{
+				"buffer_size": 15786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/java-cef-7/src/binary_distrib/win64/compile.bat",
+			"settings":
+			{
+				"buffer_size": 682,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "event:[propertyChange] - on - [java.beans.Property"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/java-cef-5/java/.classpath",
+			"file_size": 660,
+			"file_write_time": 131478245359793958,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jbart/apps/clalit_tables/server/metadata.xml",
+			"settings":
+			{
+				"buffer_size": 512644,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "/C/amta/projects/kela/screen.cs",
+			"settings":
+			{
+				"buffer_size": 75014,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/kela/KKP00268.magic.utf8",
+			"settings":
+			{
+				"buffer_size": 68762,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/kela-parsing.js",
+			"settings":
+			{
+				"buffer_size": 5480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/kela1-cs.js",
+			"settings":
+			{
+				"buffer_size": 65835,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/todo.txt",
+			"settings":
+			{
+				"buffer_size": 1374,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/kela-common.js",
+			"settings":
+			{
+				"buffer_size": 3074,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-common.js",
+			"settings":
+			{
+				"buffer_size": 5212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-styles.js",
+			"settings":
+			{
+				"buffer_size": 2986,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/kela1.js",
+			"settings":
+			{
+				"buffer_size": 32253,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "jb.component('amta-poc.kela1', {"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "QtLabelRELATION_STATUS :{$: 'QtLabel',"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-loader.js",
+			"settings":
+			{
+				"buffer_size": 914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-poc.html",
+			"settings":
+			{
+				"buffer_size": 1715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/jb-react/README.md",
+			"settings":
+			{
+				"buffer_size": 1253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "drafts.md",
+			"settings":
+			{
+				"buffer_size": 3269,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#cCommerce"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-poc.js",
+			"settings":
+			{
+				"buffer_size": 53669,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/java-cef-7/src/tools/compile.bat",
+			"settings":
+			{
+				"buffer_size": 1027,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/java-cef-7/src/tools/make_distrib.bat",
+			"settings":
+			{
+				"buffer_size": 3188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/java-cef-7/src/jcef_build/CMakeFiles/CMakeOutput.log",
+			"settings":
+			{
+				"buffer_size": 41094,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/java-cef-7/src/binary_distrib/win64/run.bat",
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/dialog.js",
+			"settings":
+			{
+				"buffer_size": 16930,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/studio/studio-popups.js",
+			"settings":
+			{
+				"buffer_size": 8426,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/jb-react/src/ui/validation.js",
+			"file_size": 0,
+			"file_write_time": 131515144030150620,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jbart/apps/clalit_tables/server/mimshakim-daily.bat",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/studio/studio-suggestions.js",
+			"settings":
+			{
+				"buffer_size": 13560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/editable-text.js",
+			"settings":
+			{
+				"buffer_size": 3810,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/studio/studio-edit-source.js",
+			"settings":
+			{
+				"buffer_size": 2620,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/studio/studio-styles.js",
+			"settings":
+			{
+				"buffer_size": 12308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/amta-parsing.js",
+			"settings":
+			{
+				"buffer_size": 38062,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/amta/projects/poc/QtComboBox.js",
+			"settings":
+			{
+				"buffer_size": 1713,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/text.js",
+			"settings":
+			{
+				"buffer_size": 2059,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/misc/parsing.js",
+			"settings":
+			{
+				"buffer_size": 8559,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/core/jb-common.js",
+			"settings":
+			{
+				"buffer_size": 23592,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/picklist.js",
+			"settings":
+			{
+				"buffer_size": 4729,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/core/jb-core.js",
+			"settings":
+			{
+				"buffer_size": 27312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/jb-studio-server.js",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/studio/studio-server.js",
+			"settings":
+			{
+				"buffer_size": 14331,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/sites.json",
+			"settings":
+			{
+				"buffer_size": 72,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/projects/ui-tests/data-tests.js",
+			"settings":
+			{
+				"buffer_size": 5422,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/styles/editable-text-styles.js",
+			"settings":
+			{
+				"buffer_size": 3136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/field.js",
+			"settings":
+			{
+				"buffer_size": 6285,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/jb-react/src/ui/common-features.js",
+			"settings":
+			{
+				"buffer_size": 11426,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 265.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/cCommerce"
+	],
+	"file_history":
+	[
+		"/C/java-cef-32/src/tools/run.bat",
+		"/C/java-cef-7/src/tools/run.bat",
+		"/C/jb-react/src/ui/validation.js",
+		"/C/jbart/gae/artwaresite/upload to buss_art.bat",
+		"/C/Users/Shai/AppData/Local/Temp/appcfg7744581114898418849.log",
+		"/C/jbart/gae/artwaresite/war/index.html",
+		"/C/jbart/devdb/jbart_project/Artware_Site/dist/Artware_Site-jbart.js",
+		"/C/Downloads/clalitTableValidations (2).js",
+		"/C/jbart/apps/clalit_tables/server/integration-daily-test.bat",
+		"/C/jbart/apps/clalit_tables/server/sendmail.js",
+		"/C/jbart/apps/clalit_tables/server/tar_files.bat",
+		"/C/jb-react/projects/studio/studio.html",
+		"/C/amta/projects/poc/amta-poc.html",
+		"/C/jbart/gae/artwaresite/upload to buss_art shai.bat",
+		"/C/jbart/devdb/jbart_project/Artware_Site/dist/widget_Artware_Site.js",
+		"/C/jbart/gae/artwaresite/war/about.html",
+		"/C/Dropbox/artware/disocunt/app.js",
+		"/C/jb-react/src/ui/react-ctrl.js",
+		"/C/Quantom/node_modules/nvd3/package.json",
+		"/C/Quantom/d3.js",
+		"/C/jb-react/src/ui/jb-preact.js",
+		"/C/amta/projects/poc/amta-window.js",
+		"/C/amta/projects/poc/amta-api.js",
+		"/C/amta/files/PE1500C.java",
+		"/C/amta/projects/poc/amta-api-test.html",
+		"/C/amta/projects/poc/dist/amta-api-test.html",
+		"/C/jb-react/src/ui/common-features.js",
+		"/C/amta/projects/poc/amta-common.js",
+		"/C/amta/projects/poc/QtComboBox.js",
+		"/C/jb-react/src/ui/dialog.js",
+		"/C/amta/files/screens.txt",
+		"/C/amta/projects/poc/amta-field.js",
+		"/C/amta/projects/poc/PE1500C.js",
+		"/C/amta/projects/poc/dist/PE1500C.js",
+		"/C/jb-react/src/ui/field.js",
+		"/C/jb-react/src/ui/window.js",
+		"/C/amta/projects/poc/amta-flow.js",
+		"/C/jb-react/projects/studio/studio-suggestions.js",
+		"/C/amta/files/PE3800C.java",
+		"/C/jb-react/projects/studio/studio-pick.js",
+		"/C/jb-react/projects/studio/studio-new-profile.js",
+		"/C/jb-react/projects/studio/studio-main.js",
+		"/C/jb-react/projects/ui-tests/tests.html",
+		"/C/jb-react/projects/studio-helper/studio-helper.js",
+		"/C/jb-react/todo.txt",
+		"/C/jb-react/src/ui/itemlist-container.js",
+		"/C/jb-react/src/ui/styles/button-styles.js",
+		"/C/amta/projects/poc/amta-validators.js",
+		"/C/amta/projects/poc/amta-actions.js",
+		"/C/jb-react/src/ui/itemlist-with-groups.js",
+		"/C/jb-react/projects/studio/studio-preview.js",
+		"/C/jb-react/src/testing/testers.js",
+		"/C/jb-react/projects/studio/studio-model-components.js",
+		"/C/jb-react/src/ui/url.js",
+		"/C/jb-react/src/ui/tree/tree.js",
+		"/C/jb-react/src/ui/itemlist.js",
+		"/C/jb-react/projects/ui-tests/data-tests.js",
+		"/C/jb-react/src/ui/editable-text.js",
+		"/C/jb-react/src/ui/styles/editable-text-styles.js",
+		"/C/jb-react/webpack.config.js",
+		"/C/jb-react/projects/studio/studio-edit-source.js",
+		"/C/jb-react/src/core/jb-core.js",
+		"/C/jb-react/src/ui/label.js",
+		"/C/amta/projects/poc/amta-parsing.js",
+		"/C/amta/projects/poc/calc-flows.js",
+		"/C/amta/projects/kela/KKP00268",
+		"/C/amta/projects/kela/screen.cs",
+		"/C/amta/projects/kela/KKP00268.magic",
+		"/C/amta/projects/kela/KKP00268.magic.utf8",
+		"/C/amta/projects/poc/PE3800C.js",
+		"/C/amta/projects/poc/dist/parseQt.js",
+		"/C/jb-react/src/node-adapter/node-adapter.js",
+		"/C/jb-react/projects/studio/studio-server.js",
+		"/C/amta/package-to-one-file.js",
+		"/C/amta/projects/poc/dist/amta-stat.html",
+		"/C/amta/projects/poc/PE1500C_java.js",
+		"/C/amta/projects/poc/amta-poc.js",
+		"/C/Downloads/14-summary (1).txt",
+		"/C/amta/projects/poc/amta-pe1500c-data.js",
+		"/C/jb-react/projects/studio/studio-toolbar.js",
+		"/C/jb-react/projects/studio/studio-styles.js",
+		"/C/jb-react/projects/ui-tests/ui-tests.js",
+		"/C/amta/projects/poc/flows.js",
+		"/C/jb-react/projects/studio/studio-properties-menu.js",
+		"/C/jb-react/projects/studio/studio-tree.js",
+		"/C/jb-react/projects/studio/studio-jb-editor.js",
+		"/C/jb-react/src/core/jb-common.js",
+		"/C/jb-react/projects/studio/studio-search.js",
+		"/C/jb-react/src/ui/styles/property-sheet-styles.js",
+		"/C/jb-react/src/ui/group.js",
+		"/C/jb-react/dist/studio-all.js",
+		"/C/amta/projects/poc/amta-styles.js",
+		"/C/jb-react/src/misc/parsing.js",
+		"/C/amta/files/parsedScreens.txt",
+		"/C/amta/projects/poc/screens.js",
+		"/C/amta/projects/poc/dist/amta-stat-all.js",
+		"/C/jb-react/src/misc/jison.js",
+		"/C/jb-react/src/core/jb-node.js",
+		"/C/jb-react/src/ui/table.js",
+		"/C/jb-react/projects/studio/studio-probe.js",
+		"/C/jb-react/src/ui/styles/table-styles.js",
+		"/C/amta/projects/poc/QtScrollPaList.js",
+		"/C/amta/projects/poc/styles.css",
+		"/C/amta/projects/poc/amta.css",
+		"/C/amta/projects/poc/amta-utils.js",
+		"/C/jb-react/src/ui/immutable.js",
+		"/C/amta/todo.txt",
+		"/C/amta/projects/poc/screen-features.js",
+		"/C/amta/projects/poc/Qtlogic.js",
+		"/C/jb-react/jbart.json",
+		"/C/jb-react/package.json",
+		"/C/Downloads/PE99_trnDescriptor.json",
+		"/C/amta/build.bat",
+		"/C/jb-react/src/ui/button.js",
+		"/C/amta/files/PE1500C-trans.txt",
+		"/C/amta/files/PE29.json",
+		"/C/amta/files/T322.json",
+		"/C/amta/projects/poc/amta-loader.js",
+		"/C/jbart/apps/clalit_tables/server/bizur_customization_etl.js",
+		"/C/Quantom/wave.html",
+		"/C/amta/projects/poc/PE1500C-flat.js",
+		"/C/amta/files/PE38.txt",
+		"/C/amta/projects/poc/PE3800C_java.js",
+		"/C/amta/projects/poc/dist/parseQt.txt",
+		"/C/jb-react/src/ui/tabs.js",
+		"/C/jb-react/projects/itemlists/itemlists.js",
+		"/C/Downloads/mimshakim-components.txt",
+		"/C/amta/projects/poc/screens-raw.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+			"*.xtml,*.js,-*/node_modules/*,-*/dist/*",
+			"*.xtml,amta/*.js,-*/node_modules/*,-*/dist/*",
+			"*.xtml,*.js,-*/node_modules/*,-*/dist/*",
+			"*.xtml,*.js,-*/node_modules/*,*/dist/*",
+			"*.xtml,*.js,-*/node_modules/*",
+			"*.xtml,*.js",
+			"*.xtml,*.xml,*.js",
+			"*.xtml,*.xml",
+			"*.xtml",
+			"*.js",
+			"*.js,*.xml,*.xtml,*.css\t",
+			"*.js,*.xtml,*.css\t",
+			"*.js,*.xml,*.xtml,*.css",
+			"*.js",
+			"*.js,*.xml,*.xtml,*.css",
+			"*.xtml",
+			"*.js,*.xml,*.xtml,*.css",
+			"*.html",
+			"*.js,*.xml,*.xtml",
+			"*.js",
+			"",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"###",
+			"paste(",
+			"selectionKeySource",
+			"'studio.paste-suggestion'",
+			"ctx.comp",
+			"'dialog.style'",
+			"dialog",
+			"grpSimanim",
+			".Size(",
+			"text-section-style",
+			"SizeInChars",
+			"LocationInChars",
+			"Controls.Add",
+			"AtsgtNtoniTchna_snifAtsga",
+			"('amta.combobox-style'",
+			"QtButtonACCEPT",
+			"('amta.label-style'",
+			"require",
+			"מחשבון",
+			"KoteretHadpasaOshaa",
+			"location_ar",
+			"LocationInChars",
+			"amta.std-props",
+			"amta.textfield-style",
+			"amta.label-style",
+			"Boun",
+			"reverse",
+			"KoteretHadpasaOshaa",
+			"('kela.cs-to-comps'",
+			"amta.cs-to-comps",
+			"screen'",
+			"מחשבון",
+			"dbo.dmg_CatalogNumbers",
+			"org.cef.browser",
+			"propertyName=",
+			"close",
+			"refreshMdl",
+			"typeMismatch",
+			"doCheck",
+			"check:",
+			"cmp.setState({error:err})",
+			"new MaterialTextfield",
+			"this",
+			"version",
+			"versio",
+			"jb.writeValue",
+			"('mdl-style.init-dynamic'",
+			"jbDestroyFuncs",
+			"('mdl-style.init-dynamic'",
+			"'mdl-style.init-dynamic'",
+			"('match",
+			"('not'",
+			"'not'",
+			"successCondition",
+			"_ctx",
+			"concat.apply",
+			"Array.concat.",
+			"'array'",
+			"o.text.split('.')",
+			"onOK",
+			"cmp.ctx",
+			"writeValue",
+			"977",
+			"230px",
+			"Copyright",
+			"charset=",
+			"('mdl-style.init-dynamic'",
+			"validate",
+			"'amta-poc.screens'",
+			"poc.screen'",
+			"מחשבון מוקש",
+			"MHeshbonMoksh",
+			"מחשבון",
+			"2014",
+			"06/10/2014",
+			"^TSK={",
+			"פתיחת מערכת",
+			"פרטים",
+			"^TSK={",
+			"TSK={",
+			"תאריך יום עסקים",
+			"הערה-1",
+			"Aara_1",
+			"Columns",
+			"V_tarikhIomAskimXNEWX",
+			"תאריך יום עסקים",
+			"% memory",
+			"getElementById('time')",
+			"time",
+			"success-counter",
+			"% memory",
+			"onRightClickOfExpanded",
+			"'dialog-feature.near-launcher-position'",
+			"'dialog.popup'",
+			"popup",
+			"onRightClickOfExpanded",
+			"base.onkey",
+			"base.onmou",
+			"'mousedown'",
+			"'onmousedown'",
+			"onRightClickOfExpanded",
+			"RightClick",
+			"onDoubleClick",
+			"DoubleClick",
+			"jb.rx.Observable.create",
+			"jb.rx.Subject",
+			"jb.rx.Observable.Subject",
+			"('itemlist-container.search'",
+			"'itemlist-container.search'",
+			"search'",
+			"scroll",
+			"'can not load table from '",
+			"'can not load table from ' + fileName",
+			"pass_through",
+			"menus-raw",
+			", name: \"[^\"]*\"",
+			", name: '[^']*'",
+			".controls",
+			"('flows",
+			"###",
+			"['###",
+			"###stage",
+			"PaintValidations",
+			".ives",
+			"extendCtxFuncs",
+			"refreshCtx",
+			"extendCtx",
+			"extendCtxFuncs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"],",
+			"\n",
+			"",
+			"\\n",
+			"%",
+			"%%",
+			"",
+			"aggregateRows",
+			"\\t",
+			"OnSuccess",
+			";\\n",
+			"201~20144",
+			"HistoryFilterAsSql",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 46,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/jb-react/src/ui/styles/mdl-styles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/jb-react/src/loader/jb-loader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/jb-react/node_modules/material-design-lite/material.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/jb-react/node_modules/material-design-lite/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/jb-react/src/ui/react-ctrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/java-cef-7/src/binary_distrib/win64/compile.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "event:[propertyChange] - on - [java.beans.Property",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/java-cef-5/java/.classpath",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/jbart/apps/clalit_tables/server/metadata.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/amta/projects/kela/screen.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/amta/projects/kela/KKP00268.magic.utf8",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/amta/projects/poc/kela-parsing.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/amta/projects/poc/kela1-cs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/jb-react/todo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/amta/projects/poc/kela-common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/amta/projects/poc/amta-common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/amta/projects/poc/amta-styles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/amta/projects/poc/kela1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "jb.component('amta-poc.kela1', {",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "QtLabelRELATION_STATUS :{$: 'QtLabel',",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/amta/projects/poc/amta-loader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								679,
+								679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/amta/projects/poc/amta-poc.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/jb-react/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "drafts.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3047,
+								3047
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#cCommerce",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2183.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/amta/projects/poc/amta-poc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/java-cef-7/src/tools/compile.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/java-cef-7/src/tools/make_distrib.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/C/java-cef-7/src/jcef_build/CMakeFiles/CMakeOutput.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/java-cef-7/src/binary_distrib/win64/run.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/jb-react/src/ui/dialog.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 22,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/jb-react/projects/studio/studio-popups.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/C/jb-react/src/ui/validation.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/C/jbart/apps/clalit_tables/server/mimshakim-daily.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/C/jb-react/projects/studio/studio-suggestions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/C/jb-react/src/ui/editable-text.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/C/jb-react/projects/studio/studio-edit-source.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/C/jb-react/projects/studio/studio-styles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "/C/amta/projects/poc/amta-parsing.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "/C/amta/projects/poc/QtComboBox.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "/C/jb-react/src/ui/text.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "/C/jb-react/src/misc/parsing.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "/C/jb-react/src/core/jb-common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"file": "/C/jb-react/src/ui/picklist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "/C/jb-react/src/core/jb-core.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "/C/jb-react/jb-studio-server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "/C/jb-react/projects/studio/studio-server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "/C/jb-react/sites.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "/C/jb-react/projects/ui-tests/data-tests.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "/C/jb-react/src/ui/styles/editable-text-styles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 50,
+					"file": "/C/jb-react/src/ui/field.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"file": "/C/jb-react/src/ui/common-features.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "cCommerce.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sites",
+				"jb-react\\sites.json"
+			],
+			[
+				"read",
+				"jb-react\\README.md"
+			],
+			[
+				"amta-poc",
+				"poc\\amta-poc.html"
+			],
+			[
+				"field",
+				"jb-react\\src\\ui\\field.js"
+			],
+			[
+				"edi",
+				"jb-react\\src\\ui\\editable-text.js"
+			],
+			[
+				"edita",
+				"jb-react\\src\\ui\\editable-text.js"
+			],
+			[
+				"sugg",
+				"jb-react\\projects\\studio\\studio-suggestions.js"
+			],
+			[
+				"vali",
+				"jb-react\\src\\ui\\validation.js"
+			],
+			[
+				"dial",
+				"jb-react\\src\\ui\\dialog.js"
+			],
+			[
+				"styles",
+				"jb-react\\projects\\studio\\studio-styles.js"
+			],
+			[
+				"amta",
+				"poc\\amta-common.js"
+			],
+			[
+				"kel",
+				"poc\\kela-common.js"
+			],
+			[
+				"kela",
+				"poc\\kela1.js"
+			],
+			[
+				"amta-p",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"dialo",
+				"jb-react\\src\\ui\\dialog.js"
+			],
+			[
+				"server",
+				"jb-react\\projects\\studio\\studio-server.js"
+			],
+			[
+				"poc",
+				"poc\\amta-poc.html"
+			],
+			[
+				"load",
+				"poc\\amta-loader.js"
+			],
+			[
+				"style",
+				"poc\\amta-styles.js"
+			],
+			[
+				"comm",
+				"poc\\amta-common.js"
+			],
+			[
+				"commo",
+				"jb-react\\src\\core\\jb-common.js"
+			],
+			[
+				"todo",
+				"jb-react\\todo.txt"
+			],
+			[
+				"loader",
+				"poc\\amta-loader.js"
+			],
+			[
+				"valida",
+				"src\\ui\\validation.js"
+			],
+			[
+				"mdl",
+				"src\\ui\\styles\\mdl-styles.js"
+			],
+			[
+				"react",
+				"src\\ui\\react-ctrl.js"
+			],
+			[
+				"mdl-",
+				"src\\ui\\styles\\mdl-styles.js"
+			],
+			[
+				"editab",
+				"src\\ui\\styles\\editable-text-styles.js"
+			],
+			[
+				"reac",
+				"src\\ui\\react-ctrl.js"
+			],
+			[
+				"studio-se",
+				"projects\\studio\\studio-server.js"
+			],
+			[
+				"core",
+				"src\\core\\jb-core.js"
+			],
+			[
+				"data-",
+				"projects\\ui-tests\\data-tests.js"
+			],
+			[
+				"stud",
+				"projects\\studio\\studio.html"
+			],
+			[
+				"fea",
+				"src\\ui\\common-features.js"
+			],
+			[
+				"calc",
+				"poc\\calc-flows.js"
+			],
+			[
+				"tre",
+				"jb-react\\src\\ui\\tree\\tree.js"
+			],
+			[
+				"dialog",
+				"jb-react\\src\\ui\\dialog.js"
+			],
+			[
+				"tree",
+				"jb-react\\src\\ui\\tree\\tree.js"
+			],
+			[
+				"tests",
+				"jb-react\\projects\\ui-tests\\data-tests.js"
+			],
+			[
+				"data-tes",
+				"jb-react\\projects\\ui-tests\\data-tests.js"
+			],
+			[
+				"item",
+				"jb-react\\src\\ui\\itemlist-container.js"
+			],
+			[
+				"itemlist",
+				"jb-react\\src\\ui\\itemlist.js"
+			],
+			[
+				"feat",
+				"poc\\screen-features.js"
+			],
+			[
+				"cal",
+				"poc\\calc-flows.js"
+			],
+			[
+				"flows",
+				"poc\\flows.js"
+			],
+			[
+				"pars",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"jb-core",
+				"jb-react\\src\\core\\jb-core.js"
+			],
+			[
+				"test",
+				"jb-react\\projects\\ui-tests\\tests.html"
+			],
+			[
+				"mai",
+				"jb-react\\projects\\studio\\studio-main.js"
+			],
+			[
+				"pick",
+				"jb-react\\projects\\studio\\studio-pick.js"
+			],
+			[
+				"preac",
+				"jb-react\\src\\ui\\jb-preact.js"
+			],
+			[
+				"main",
+				"jb-react\\projects\\studio\\studio-main.js"
+			],
+			[
+				"tab",
+				"jb-react\\src\\ui\\table.js"
+			],
+			[
+				"table",
+				"jb-react\\src\\ui\\styles\\table-styles.js"
+			],
+			[
+				"probe",
+				"jb-react\\projects\\studio\\studio-probe.js"
+			],
+			[
+				"table-st",
+				"jb-react\\src\\ui\\styles\\table-styles.js"
+			],
+			[
+				"conta",
+				"jb-react\\src\\ui\\itemlist-container.js"
+			],
+			[
+				"ediat",
+				"jb-react\\src\\ui\\styles\\editable-text-styles.js"
+			],
+			[
+				"pack",
+				"jb-react\\package.json"
+			],
+			[
+				"flow",
+				"poc\\calc-flows.js"
+			],
+			[
+				"parsing",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"poch",
+				"poc\\amta-poc.html"
+			],
+			[
+				"parsin",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"amta-pa",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"win",
+				"poc\\amta-window.js"
+			],
+			[
+				"utils",
+				"poc\\amta-utils.js"
+			],
+			[
+				"api",
+				"poc\\amta-api.js"
+			],
+			[
+				"act",
+				"poc\\amta-actions.js"
+			],
+			[
+				"amta-ut",
+				"poc\\amta-utils.js"
+			],
+			[
+				"imm",
+				"jb-react\\src\\ui\\immutable.js"
+			],
+			[
+				"fiel",
+				"poc\\amta-field.js"
+			],
+			[
+				"par",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"poc-h",
+				"poc\\amta-poc.html"
+			],
+			[
+				"qtlog",
+				"poc\\Qtlogic.js"
+			],
+			[
+				"qt",
+				"poc\\QtScrollPaList.js"
+			],
+			[
+				"util",
+				"poc\\amta-utils.js"
+			],
+			[
+				"acti",
+				"poc\\amta-actions.js"
+			],
+			[
+				"qtlo",
+				"poc\\Qtlogic.js"
+			],
+			[
+				"amta-f",
+				"poc\\amta-field.js"
+			],
+			[
+				"uti",
+				"poc\\amta-utils.js"
+			],
+			[
+				"styl",
+				"poc\\amta-styles.js"
+			],
+			[
+				"qtsc",
+				"poc\\QtScrollPaList.js"
+			],
+			[
+				"butt",
+				"jb-react\\src\\ui\\button.js"
+			],
+			[
+				"serve",
+				"jb-react\\projects\\studio\\studio-server.js"
+			],
+			[
+				"adapte",
+				"jb-react\\src\\node-adapter\\node-adapter.js"
+			],
+			[
+				"parseqt",
+				"C:\\amta\\projects\\poc\\dist\\parseQt.js"
+			],
+			[
+				"pa",
+				"poc\\amta-parsing.js"
+			],
+			[
+				"parsi",
+				"jb-react\\src\\misc\\parsing.js"
+			],
+			[
+				"common",
+				"jb-react\\src\\core\\jb-common.js"
+			],
+			[
+				"amta-c",
+				"poc\\amta-common.js"
+			],
+			[
+				"amta-styles",
+				"poc\\amta-styles.js"
+			],
+			[
+				"sugges",
+				"jb-react\\projects\\studio\\studio-suggestions.js"
+			],
+			[
+				"wind",
+				"poc\\amta-window.js"
+			],
+			[
+				"amta-api-test.html",
+				"poc\\amta-api-test.html"
+			],
+			[
+				"windo",
+				"poc\\amta-window.js"
+			],
+			[
+				"amta-s",
+				"poc\\amta-styles.js"
+			],
+			[
+				"amta-fl",
+				"poc\\amta-flow.js"
+			],
+			[
+				"flo",
+				"poc\\flows.js"
+			],
+			[
+				"app",
+				"poc\\amta-app.js"
+			],
+			[
+				"pe",
+				"poc\\PE1500C.js"
+			],
+			[
+				"parse",
+				"C:\\amta\\projects\\poc\\dist\\parseQt.js"
+			],
+			[
+				"",
+				"poc\\amta-utils.js"
+			],
+			[
+				"ut",
+				"poc\\amta-utils.js"
+			],
+			[
+				"amta.cs",
+				"poc\\amta.css"
+			],
+			[
+				"css",
+				"poc\\amta.css"
+			],
+			[
+				"jis",
+				"jb-react\\src\\misc\\jison.js"
+			],
+			[
+				"amta-sta",
+				"C:\\amta\\projects\\poc\\dist\\amta-stat-all.js"
+			],
+			[
+				"label",
+				"jb-react\\src\\ui\\label.js"
+			],
+			[
+				"qtlogi",
+				"poc\\Qtlogic.js"
+			],
+			[
+				"jbart",
+				"jb-react\\jbart.json"
+			],
+			[
+				"tod",
+				"C:\\amta\\todo.txt"
+			],
+			[
+				"amta.c",
+				"poc\\amta.css"
+			],
+			[
+				"qtte",
+				"C:\\amta\\projects\\poc\\dist\\qtTest.js"
+			],
+			[
+				"stat-",
+				"C:\\amta\\projects\\poc\\dist\\amta-stat-all.js"
+			],
+			[
+				"stat-all",
+				"C:\\amta\\projects\\poc\\dist\\amta-stat-all.js"
+			],
+			[
+				"one-f",
+				"C:\\amta\\package-to-one-file.js"
+			],
+			[
+				"itemlists",
+				"jb-react\\projects\\itemlists\\itemlists.js"
+			],
+			[
+				"ui-tes",
+				"jb-react\\projects\\ui-tests\\ui-tests.js"
+			],
+			[
+				"ui-te",
+				"jb-react\\projects\\ui-tests\\ui-tests.js"
+			],
+			[
+				"but",
+				"jb-react\\src\\ui\\styles\\button-styles.js"
+			],
+			[
+				"tool",
+				"jb-react\\projects\\studio\\studio-toolbar.js"
+			],
+			[
+				"tabe",
+				"jb-react\\src\\ui\\styles\\table-styles.js"
+			],
+			[
+				"labe",
+				"jb-react\\src\\ui\\label.js"
+			],
+			[
+				"bean",
+				"poc\\bean-features.js"
+			],
+			[
+				"table.",
+				"jb-react\\src\\ui\\table.js"
+			],
+			[
+				"tabs",
+				"jb-react\\src\\ui\\tabs.js"
+			],
+			[
+				"tabl",
+				"jb-react\\src\\ui\\table.js"
+			],
+			[
+				"cont",
+				"jb-react\\src\\ui\\itemlist-container.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

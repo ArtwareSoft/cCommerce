@@ -1,0 +1,31 @@
+<script>
+	global = {};
+	unique = (ar,f) => {
+    f = f || (x=>x);
+    var keys = {}, res = [];
+    ar.forEach(e=>{
+      if (!keys[f(e)]) {
+        keys[f(e)] = true;
+        res.push(e)
+      }
+    })
+    return res;
+  }
+</script>
+<script src="../download/ebay-products.js"></script>
+
+<script>
+	var props = ['MPN','UPC','Brand'];
+  var yearToNum = x => Number((x.match(/20[0-9][0-9]/)||[0])[0]);
+  var sizeToNum = x => Number((x.match(/([0-9.]*)\s*in/)||[0])[1]);
+
+  var relevant = module.exports.products.filter(x=>x && x.Size && sizeToNum(x.Size) > 4  && sizeToNum(x.Size) < 7 && x.Announced && yearToNum(x.Announced) > 201);
+  toCheck = global.ebayProducts.map((x,i)=> x.ReviewCount > 1 && Object.getOwnPropertyNames(x.details).length == 0 ? i : 0).filter(x=>x);
+  global.ebayProducts.forEach(x=>x.details && (x.details.Title = x.Title));
+	open = global.ebayProducts.filter(x=>x.details && (!x.details.Network || x.details.Network == 'Unlocked'))
+    .map(x=>Object.assign(x.details,{ Title: x.Title, ReviewCount: x.ReviewCount, MPN: x.details['MPN '] || x.details['MPN']}));
+  props.forEach(prop=>{
+    console.log('unique ' + prop,unique(open.map(x=>x[prop+ ' '] || x[prop])).sort() )
+  })
+	console.log('total',open.length)
+</script>
